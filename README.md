@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Show history of people infected with Covid-19.
 
 ## Demo
 [Demo](https://rudy-test-jesdakorns.vercel.app/)
