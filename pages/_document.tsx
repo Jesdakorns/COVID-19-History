@@ -39,6 +39,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <title>COVID-19 History</title>
           <meta
             name="viewport"
             content="minimum-scale=1, initial-scale=1.0, width=device-width , viewport-fit=cover"
