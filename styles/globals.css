@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  /* font-family: Open Sans; */
+  font-family: 'Kodchasan', sans-serif !important;
+}
+
+@media screen and (max-width: 767px) {
+  * {
+    font-size: 14px;
+  }
+}
+
+.swal2-container {
+  z-index: 99999 !important;
+}
+
+.text-overflow {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+
+.text-transform-none {
+  text-transform: none !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.user-select {
+  user-select: none;
+}
+.scrollbar-style,
+.scrollbar-style-h-10 {
+  scrollbar-width: thin;
+  scrollbar-color: #bdbdbd #dde2e5;
+}
+
+.scrollbar-style-h-10::-webkit-scrollbar {
+  height: 10px;
+}
+
+.scrollbar-style-h-10::-webkit-scrollbar,
+.scrollbar-style::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scrollbar-style-h-10::-webkit-scrollbar-track,
+.scrollbar-style::-webkit-scrollbar-track {
+  background: #dde2e5;
+  border-radius: 20px;
+}
+
+.scrollbar-style-h-10::-webkit-scrollbar-thumb,
+.scrollbar-style::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+  border-radius: 20px;
+}
+
+.box-victory-container {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: scroll;
+  overflow-y: clip;
+}
+.victory-container {
+  touch-action: auto !important;
+  /* width: 1500px !important; */
+  margin: 0 64px;
+}
+
+.box-victory-container::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.box-victory-container::-webkit-scrollbar-track {
+  background: #dde2e5;
+  border-radius: 20px;
+}
+
+.box-victory-container::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+  border-radius: 20px;
+}
+
+.pin {
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 50% 50% 0;
+  background: #ff0000;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 50%;
+  top: 50%;
+  margin: -20px 0 0 -20px;
+}
+.pin:after {
+  content: '';
+  width: 14px;
+  height: 14px;
+  margin: 8px 0 0 8px;
+  background: #6b0000;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-fill-mode: both;
+  animation-duration: 1s;
+}
+
+.box-shadow-main {
+  box-shadow: rgb(145 158 171 / 16%) 0px 0px 2px 0px, rgb(145 158 171 / 16%) 0px 12px 24px -4px;
+}
+
+.overflow-y-hidden {
+  overflow: hidden !important;
+}
+
+.box-filter-main {
+  filter: drop-shadow(0px 2px 8px rgba(154, 176, 199, 0.451));
+}
+
+.space-nowrap {
+  white-space: nowrap;
+}
